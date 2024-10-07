@@ -1,4 +1,10 @@
-header{
-    background-color: blueviolet;
+header
+{
+    background-color: rgba(65, 59, 62, 0.8);
     color: white
+}
+html, body
+{
+margin: 0;
+padding: 0;
 }
