@@ -29,14 +29,19 @@ h2{
     margin-right: auto;
     display: block;
 }
-.main{
+main{
     display: flex;
     flex-direction: column;
     width: 100%;
     gap:60px;
     background-color: rgba(80, 126, 124, 0.8);
     justify-content: center;
-    justify-content: space-around;    
+       
+}
+.Abschnitt-1, .Abschnitt-2, .Abschnitt-3, .Abschnitt-4, .Abschnitt-5{
+    background-color: rgba(13,13,174,0.93);
+    padding: 50px;
+    margin: 100px;
 }
 footer{
     background-color: rgba(80, 126, 124, 0.8);
