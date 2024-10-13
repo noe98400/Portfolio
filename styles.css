@@ -11,9 +11,11 @@ padding: 0;
 }
 h1, h2, h3 {
     font-style: Agency FB;
+    text-align: center;
 }
 p{
     font-style: Avantgarde;
+    text-align: center;
 }
 h1{
     font-size: 500%;
@@ -33,9 +35,9 @@ h2{
     width: 100%;
     gap:60px;
     background-color: rgba(80, 126, 124, 0.8);
-    align-items: center;
-    
+    justify-content: center;
+    justify-content: space-around;    
 }
-.Abschnitt{
-    
+footer{
+    background-color: rgba(80, 126, 124, 0.8);
 }
