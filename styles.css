@@ -1,8 +1,9 @@
 header
 {
-    background-color: rgba(65, 59, 62, 0.8);
+    background-color: rgba(80, 126, 124, 0.8);
     color: white
 }
+
 html, body
 {
 margin: 0;
@@ -10,15 +11,31 @@ padding: 0;
 }
 h1, h2, h3 {
     font-style: Agency FB;
-    text-align: center;
 }
 p{
     font-style: Avantgarde;
-    text-align: center;
 }
 h1{
     font-size: 500%;
 }
 h2{
     border-bottom: 1px solid black;
+    margin: 50px;
+}
+.foti{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:60px;
+    background-color: rgba(80, 126, 124, 0.8);
+    align-items: center;
+    
+}
+.Abschnitt{
+    
 }
