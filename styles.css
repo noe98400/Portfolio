@@ -1,0 +1,72 @@
+
+footer {
+    background-color: aqua;
+    background-color: yellow;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-areas: ' aside main ';
+}
+
+aside {
+    background-color: wheat;
+    grid-area: aside;
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+header {
+    margin-top: 6em;
+    background-color: red;
+    margin-bottom: 8em;
+    display: flex;
+}
+
+main {
+    background-color: blueviolet;
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 300px;
+}
+
+.Titel {
+    text-align: center;
+    flex-grow: 1;
+    padding: 3em;
+    margin: 1em;
+}
+
+.font {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.italic {
+    font-style: italic;
+    margin-top: unset;
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: unset;
+    margin-top: 6px;
+}
+.Abstand{
+    margin-bottom: 25px;
+}
+
+.Flexaside{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.h2aside{
+    margin-bottom: 5px;
+}
