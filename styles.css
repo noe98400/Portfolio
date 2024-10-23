@@ -1,16 +1,10 @@
 
-footer {
-    background-color: aqua;
-    background-color: yellow;
-}
-
 .wrapper {
     display: grid;
     grid-template-areas: ' aside main ';
 }
 
 aside {
-    background-color: wheat;
     grid-area: aside;
     display:flex;
     flex-direction: column;
@@ -19,13 +13,11 @@ aside {
 
 header {
     margin-top: 6em;
-    background-color: red;
     margin-bottom: 8em;
     display: flex;
 }
 
 main {
-    background-color: blueviolet;
     grid-area: main;
     display: flex;
     flex-direction: column;
@@ -70,4 +62,8 @@ gap: 20px;
 
 .h2aside{
     margin-bottom: 5px;
+}
+
+*{
+    background-color: rgba(22,104,194,0.8)
 }
