@@ -1,0 +1,48 @@
+*{
+    border: 1px solid aqua;
+}
+
+header {
+    margin-top: 6em;
+    margin-bottom: 8em;
+    display: flex;
+}
+
+main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+}
+
+.Titel{
+display: block;
+}
+
+.font {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.italic {
+    font-style: italic;
+    margin-top: unset;
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: unset;
+    margin-top: 6px;
+}
+.Abstand{
+    margin-bottom: 25px;
+}
+
+.h2aside{
+    margin-bottom: 5px;
+} 
