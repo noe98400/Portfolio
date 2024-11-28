@@ -1,11 +1,11 @@
-*{
-    border: 1px solid aqua;
-}
-
 header {
     margin-top: 6em;
     margin-bottom: 8em;
     display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+    
 }
 
 main {
@@ -20,8 +20,8 @@ img {
     height: 300px;
 }
 
-.Titel{
-display: block;
+.Titel {
+    display: block;
 }
 
 .font {
@@ -39,10 +39,70 @@ p {
     margin-bottom: unset;
     margin-top: 6px;
 }
-.Abstand{
+
+.Abstand {
     margin-bottom: 25px;
 }
 
-.h2aside{
+.h2aside {
     margin-bottom: 5px;
-} 
+}
+
+links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.links{
+    border: 1.5px solid #7f6000;
+    background-color: #f1c232;
+    width: 100px;
+    text-decoration: none;
+    opacity: 0.8;
+    color: black;
+    padding: 4.5px;
+    border-radius: 8px;
+}
+
+.links:hover{
+    text-decoration: underline;
+    background-color: #ffd966;
+}
+
+.links:active{
+    background-color: #bf9000;
+    text-decoration: none;
+}
+
+#name{
+    font-size: 300%;
+}
+
+#navList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navi{
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid black;
+    text-align: center;
+    padding: 7px;
+    width: 150px;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.navi:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.navi:active{
+    background-color: #fcdae5;
+}
