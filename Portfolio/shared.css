@@ -25,9 +25,10 @@ header, .colorBoxes, .mainer, .header {
     padding: 30px;
 }
 
+/* Links zu anderer Seite */
+
 .links{
-    border: 1.5px solid #7f6000;
-    background-color: #f1c232;
+    background-color: white;
     width: 100px;
     text-decoration: none;
     opacity: 0.8;
@@ -41,10 +42,9 @@ header, .colorBoxes, .mainer, .header {
 
 .links:hover{
     text-decoration: underline;
-    background-color: #ffd966;
+    opacity: 1;
 }
 
 .links:active{
-    background-color: #bf9000;
-    text-decoration: none;
+    background-color: #fcdae5
 }

@@ -75,12 +75,14 @@ links{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: fixed;
+    right: 1%;
+    top: 20%;
 }
 
 .navi{
     text-decoration: none;
     color: black;
-    border: 1.5px solid black;
     text-align: center;
     padding: 7px;
     width: 150px;
