@@ -1,18 +1,17 @@
-header {
+/* alles im Titel*/
+.header {
     margin-top: 6em;
-    margin-bottom: 8em;
     display: flex;
     flex-direction: column;
     place-items: center;
     text-align: center;
-    
+}
+#name{
+    font-size: 300%;
 }
 
-main {
-    grid-area: main;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.Titel {
+    display: block;
     text-align: center;
 }
 
@@ -20,8 +19,18 @@ img {
     height: 300px;
 }
 
-.Titel {
-    display: block;
+.line{
+    border: 0.5px solid black;
+    width: 95%;
+}
+
+/*alles vom body*/
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-items: center;
+    gap: 100px;
 }
 
 .font {
@@ -48,6 +57,11 @@ p {
     margin-bottom: 5px;
 }
 
+#diplomas{
+    margin-top: 6.5em;
+}
+/*Buttons zu anderen Seiten*/
+
 links{
     display: flex;
     flex-direction: column;
@@ -55,30 +69,7 @@ links{
     align-items: center;
 }
 
-.links{
-    border: 1.5px solid #7f6000;
-    background-color: #f1c232;
-    width: 100px;
-    text-decoration: none;
-    opacity: 0.8;
-    color: black;
-    padding: 4.5px;
-    border-radius: 8px;
-}
-
-.links:hover{
-    text-decoration: underline;
-    background-color: #ffd966;
-}
-
-.links:active{
-    background-color: #bf9000;
-    text-decoration: none;
-}
-
-#name{
-    font-size: 300%;
-}
+/*Navigationsliste*/
 
 #navList{
     display: flex;

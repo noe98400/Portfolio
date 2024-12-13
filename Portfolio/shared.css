@@ -12,12 +12,12 @@ html{
 }
 
 /* for color and width of the boxes*/
-header, .colorBoxes, .mainer, .navi {
+header, .colorBoxes, .mainer, .navi, .header {
     background-color: rgb(255, 255, 255); 
     opacity: 0.8;
 }
 
-header, .colorBoxes, .mainer {
+header, .colorBoxes, .mainer, .header {
     background-color: rgb(255, 255, 255);
     width: 60%; 
     border-radius: 8px;
@@ -25,4 +25,26 @@ header, .colorBoxes, .mainer {
     padding: 30px;
 }
 
+.links{
+    border: 1.5px solid #7f6000;
+    background-color: #f1c232;
+    width: 100px;
+    text-decoration: none;
+    opacity: 0.8;
+    color: black;
+    padding: 4.5px;
+    border-radius: 8px;
+    position: fixed;
+    left: 1%;
+    top: 20%;
+}
 
+.links:hover{
+    text-decoration: underline;
+    background-color: #ffd966;
+}
+
+.links:active{
+    background-color: #bf9000;
+    text-decoration: none;
+}
