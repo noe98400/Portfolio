@@ -1,38 +1,36 @@
-
-.wrapper {
-    display: grid;
-    grid-template-areas: ' aside main ';
-}
-
-aside {
-    grid-area: aside;
-    display:flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-header {
+/* alles im Titel*/
+.header {
     margin-top: 6em;
-    margin-bottom: 8em;
-    display: flex;
-}
-
-main {
-    grid-area: main;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    place-items: center;
+    text-align: center;
+}
+#name{
+    font-size: 300%;
+}
+
+.Titel {
+    display: block;
+    text-align: center;
 }
 
 img {
     height: 300px;
 }
 
-.Titel {
+.line{
+    border: 0.5px solid black;
+    width: 95%;
+}
+
+/*alles vom body*/
+body {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    flex-grow: 1;
-    padding: 3em;
-    margin: 1em;
+    place-items: center;
+    gap: 100px;
 }
 
 .font {
@@ -50,20 +48,54 @@ p {
     margin-bottom: unset;
     margin-top: 6px;
 }
-.Abstand{
+
+.Abstand {
     margin-bottom: 25px;
 }
 
-.Flexaside{
-display: flex;
-flex-direction: column;
-gap: 20px;
-}
-
-.h2aside{
+.h2aside {
     margin-bottom: 5px;
 }
 
-*{
-    background-color: rgba(22,104,194,0.8)
+#diplomas{
+    margin-top: 6.5em;
+}
+/*Buttons zu anderen Seiten*/
+
+links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+/*Navigationsliste*/
+
+#navList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    right: 1%;
+    top: 20%;
+}
+
+.navi{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 7px;
+    width: 150px;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.navi:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.navi:active{
+    background-color: #fcdae5;
 }

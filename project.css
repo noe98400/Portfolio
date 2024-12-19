@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.colorBoxes{
+    gap: 300%;
+}
+
+.italic {
+    font-weight: 200;
+}
+
+h3{
+    margin-top: 50px;
+}
+
+#first{
+    margin-top: 6em;
+}

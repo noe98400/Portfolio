@@ -1,0 +1,50 @@
+/*{
+    border: 1px solid aqua;
+}*/
+
+*{
+    font-family: Baskerville, 'Comic Sans MS', 'Times New Roman';
+    
+}
+
+html{
+    background-color: #882043;
+}
+
+/* for color and width of the boxes*/
+header, .colorBoxes, .mainer, .navi, .header {
+    background-color: rgb(255, 255, 255); 
+    opacity: 0.8;
+}
+
+header, .colorBoxes, .mainer, .header {
+    background-color: rgb(255, 255, 255);
+    width: 60%; 
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 30px;
+}
+
+/* Links zu anderer Seite */
+
+.links{
+    background-color: white;
+    width: 100px;
+    text-decoration: none;
+    opacity: 0.8;
+    color: black;
+    padding: 4.5px;
+    border-radius: 8px;
+    position: fixed;
+    left: 1%;
+    top: 20%;
+}
+
+.links:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.links:active{
+    background-color: #fcdae5
+}
